@@ -9,14 +9,16 @@
             </ul>
 
         </div>
-        <div class="row">
-            <span><?php echo $this->session->flashdata('message'); ?></span>
-        </div>
+
         <?php
         echo form_open_multipart('', array('class' => 'form-horizontal'));
         ?>
         <div class="contact_form">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <div class="row">
+
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-md-offset-2">
+                <span style="color: red;"><?php echo $this->session->flashdata('message'); ?></span>
                 <table class="table">
                     <tr>
                         <td>
@@ -71,9 +73,6 @@
                         </td>
                     </tr>
                 </table>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <img src="<?php echo base_url('assets/public/img/about.jpg'); ?>">
             </div>
         </div>
         <?php

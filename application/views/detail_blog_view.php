@@ -14,7 +14,7 @@
     <div class="news_post col-lg-9 col-xs-12">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="item">
-                <img src="<?php echo base_url('assets/upload/blog/' . $blog['description_image']); ?>" alt="">
+                <img src="<?php echo empty($blog['description_image']) ? base_url('assets/public/img/no-intro-image.jpg') : base_url('assets/upload/blog/' . $blog['description_image']); ?>" alt="">
                 <h3 class="brand_color post_title"><?php echo $blog['blog_title']; ?></h3>
                 <p class="post_date">
                     <i class="fa fa-calendar-o"></i>
@@ -39,7 +39,7 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-lg-12">
-                                <img src="<?php echo base_url('assets/upload/blog/' . $item['description_image']); ?>" alt="">
+                                <img src="<?php echo empty($item['description_image']) ? base_url('assets/public/img/no-intro-image.jpg') : base_url('assets/upload/blog/' . $item['description_image']); ?>" alt="">
                             </div>
                             <div class="col-lg-12">
                                 <h3 class="post_title">
@@ -69,7 +69,7 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-lg-12">
-                                <img src="<?php echo site_url('assets/upload/blog/' . $item['description_image']); ?>" alt="">
+                                <img src="<?php echo empty($item['description_image']) ? base_url('assets/public/img/no-intro-image.jpg') : base_url('assets/upload/blog/' . $item['description_image']); ?>" alt="">
                             </div>
                             <div class="col-lg-12">
                                 <h3 class="post_title">
