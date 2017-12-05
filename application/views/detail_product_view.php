@@ -1,4 +1,4 @@
-<section class="content drug container">
+<section class="content drug container test">
 
     <div class="drug_post">
         <div class="drug_post_content row">

@@ -2,7 +2,7 @@
 <!--    <img src="<?php echo base_url('assets/public/img/slide/slide_1.jpg'); ?>">-->
 <!--</section>-->
 
-<section class="content news container">
+<section class="content news container test2">
     <div class="content_title page_list">
         <ul>
             <li><a href="<?php echo site_url('blog/list_information'); ?>"><?php echo $this->lang->line('blog_information'); ?></a></li>
