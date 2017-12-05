@@ -42,7 +42,7 @@
                 <?php foreach($products as $product): ?>
                     <div class="drug_list_item col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="drug_list_inner">
-                            <img src="<?php echo base_url('assets/upload/product/' . $product['description_image']); ?>">
+                            <img src="<?php echo empty($product['description_image']) ? base_url('assets/public/img/no-intro-image.jpg') : base_url('assets/upload/product/' . $product['description_image']); ?>">
                             <a href="<?php echo site_url('product/detail/' . $product['product_id']); ?>">
                                 <h4 class="brand_color post_title"><?php echo $product['title']; ?></h4>
                             </a>
