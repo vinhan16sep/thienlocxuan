@@ -1,4 +1,4 @@
-<section class="content drug container">
+<section class="content drug container test">
     <div class="page_list">
         <ul>
             <li><a href="<?php echo site_url('physic'); ?>"><?php echo $this->lang->line('medicine'); ?></a></li>
