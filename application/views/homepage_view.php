@@ -44,11 +44,8 @@
 
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <h3 class="brand_color post_title">Tên của sản phẩm</h3>
-            <p class="post_subtitle">Giới thiệu về sản phẩm</p>
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in nulla pulvinar, ultrices nulla sed, mattis felis. Proin turpis lorem, tincidunt a tincidunt aliquet, scelerisque et lectus. Morbi interdum nisl dolor, id cursus leo laoreet ut. Phasellus arcu quam, varius a maximus quis, sodales vitae eros. Pellentesque tincidunt massa ut elementum auctor. Aenean odio quam, feugiat vitae fringilla vitae, mattis sit amet orci. Mauris tempor purus odio, id pulvinar elit condimentum quis.</p>
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in nulla pulvinar, ultrices nulla sed, mattis felis. Proin turpis lorem, tincidunt a tincidunt aliquet, scelerisque et lectus. Morbi interdum nisl dolor, id cursus leo laoreet ut. Phasellus arcu quam, varius a maximus quis, sodales vitae eros. Pellentesque tincidunt massa ut elementum auctor. Aenean odio quam, feugiat vitae fringilla vitae, mattis sit amet orci. Mauris tempor purus odio, id pulvinar elit condimentum quis.</p>
-
+            <h3 class="brand_color post_title">Về chúng tôi</h3>
+            <p>Khởi đầu là một cửa hàng thuốc nhỏ vào năm 1991, đến nay sau hơn 20 năm cố gắng xây dựng và phát triển chúng tôi là một trong những công ty bán buôn thuốc thành phẩm nhận được nhiều sự tin tưởng của khách hàng và các đối tác. Năm 2014, chúng tôi đã chuyển đổi hình thức kinh doanh và lấy tên doanh nghiệp là công ty Cổ phần Thương mại Thiên Lộc Xuân. Với sứ mệnh để người bệnh có thể được dùng thuốc với giá rẻ hơn, kịp thời hơn, chúng tôi luôn cố gắng hết sức mình thực hiện sứ mệnh ngày một tốt hơn.</p>
             <a class="btn btn-default hvr-sweep-to-right" role="button" href="<?php echo site_url('introduce/history'); ?>">
                 <?php echo $this->lang->line('readmore'); ?> <i class="fa fa-angle-double-right"></i>
             </a>
